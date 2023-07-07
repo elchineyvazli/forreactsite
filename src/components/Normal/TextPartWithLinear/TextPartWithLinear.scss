@@ -1,0 +1,31 @@
+.textPartWithLinear {
+    width: 100%;
+    display: flex;
+
+    .containerLinear {
+        display: flex;
+
+        h1 {
+            width: 387px;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 47px;
+            color: #173D7A;
+        }
+
+        .verticalLinearStick {
+            width: 4px;
+            height: 130px;
+            background: linear-gradient(180deg, #173D7A 0%, #FF7A00 100%);
+            border-radius: 2px;
+        }
+
+        .horizontalLinearStick {
+            width: 130px;
+            height: 4px;
+            background: linear-gradient(90deg, #173D7A 0%, #FF7A00 100%);
+            border-radius: 2px;
+        }
+    }
+
+}

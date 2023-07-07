@@ -1,0 +1,33 @@
+.jedEducation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .jedEducationImage {
+        width: 50%;
+        height: 728px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 506px;
+            height: 506px;
+        }
+    }
+
+    .jedEducationInfo {
+        width: 594px;
+        height: 376px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+
+        .jedEducationInfoBottom {
+            line-height: 24px;
+            font-size: 16px;
+            font-weight: 400;
+            color: #102B55;
+        }
+    }
+}
